@@ -24,6 +24,7 @@ playlist_id = sp.user_playlist_create(user_id, playlist)['id']
 
 results = sp.current_user_saved_tracks()
 uri_list = show_tracks(results)
+sp.playlist_add_items(playlist_id, uri_list)
 
 while results['next']:
     results = sp.next(results)
