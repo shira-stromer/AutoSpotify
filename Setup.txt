@@ -1,0 +1,6 @@
+Sptify Developers Dashboard:
+https://developer.spotify.com/dashboard/applications/91571c70e2cd42ecb167411eacfe0707
+
+Take Env Variables values from the link above and assign them as:
+1. SPOTIPY_CLIENT_ID
+2. SPOTIPY_CLIENT_SECRET
